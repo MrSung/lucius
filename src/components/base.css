@@ -1,0 +1,29 @@
+@media (min-width: 48rem) {
+  :root {
+    font-size: calc(100% + ((1vw - 0.48rem) * 0.2));
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  background-color: #141a3a;
+}
+
+body .ts-base-style {
+  background-color: #141a3a;
+  font-family: 'Poppins', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  line-height: 1.8;
+}
+
+body .ts-block {
+  padding-bottom: 8.125rem;
+  padding-top: 8.125rem;
+}
+
+body .ts-title {
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,72 @@
+{
+  "name": "lucius-v3",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Sungjoon Park <sungjoon512@gmail.com>",
+  "engines": {
+    "node": "12.16.3",
+    "yarn": "1.22.4"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "gatsby": "2.22.9",
+    "gatsby-image": "2.4.5",
+    "gatsby-plugin-google-analytics": "2.3.2",
+    "gatsby-plugin-manifest": "2.4.9",
+    "gatsby-plugin-offline": "3.2.7",
+    "gatsby-plugin-react-helmet": "3.3.2",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "2.6.9",
+    "gatsby-plugin-sitemap": "2.4.3",
+    "gatsby-plugin-styled-components": "3.3.2",
+    "gatsby-plugin-web-font-loader": "1.0.4",
+    "gatsby-source-contentful": "2.3.12",
+    "gatsby-source-filesystem": "2.3.8",
+    "gatsby-transformer-sharp": "2.5.3",
+    "nanoid": "3.1.9",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-anchor-link-smooth-scroll": "1.0.12",
+    "react-dom": "16.13.1",
+    "react-driftjs": "1.1.11",
+    "react-headroom": "3.0.0",
+    "react-helmet": "6.0.0",
+    "styled-components": "5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-standard": "4.0.1",
+    "prettier": "2.0.5",
+    "stylelint": "13.5.0",
+    "stylelint-config-standard-scss": "1.1.0",
+    "stylelint-declaration-block-no-ignored-properties": "2.3.0",
+    "stylelint-order": "4.0.0",
+    "stylelint-scss": "3.17.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
