@@ -5,12 +5,12 @@
   "version": "0.1.0",
   "author": "Sungjoon Park <sungjoon512@gmail.com>",
   "engines": {
-    "node": "12.16.3",
+    "node": "12.17.0",
     "yarn": "1.22.4"
   },
   "dependencies": {
     "dotenv": "8.2.0",
-    "gatsby": "2.22.10",
+    "gatsby": "2.22.11",
     "gatsby-image": "2.4.5",
     "gatsby-plugin-google-analytics": "2.3.2",
     "gatsby-plugin-manifest": "2.4.9",
