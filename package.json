@@ -21,7 +21,7 @@
     "gatsby-plugin-sitemap": "2.4.13",
     "gatsby-plugin-styled-components": "3.3.11",
     "gatsby-plugin-web-font-loader": "1.0.4",
-    "gatsby-source-contentful": "2.3.46",
+    "gatsby-source-contentful": "4.2.1",
     "gatsby-source-filesystem": "2.3.30",
     "gatsby-transformer-sharp": "2.5.15",
     "nanoid": "3.1.12",
